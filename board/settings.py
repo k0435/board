@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'boardapp',
     'captcha',
+     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 CAPTCHA_NOISE_FUNCTIONS = (
